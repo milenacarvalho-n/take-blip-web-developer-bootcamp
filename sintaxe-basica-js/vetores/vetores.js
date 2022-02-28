@@ -46,3 +46,5 @@ var citricos = frutas.slice(1, 3);
 console.log(citricos);
 
 // citricos contem ['Laranja','Limao']
+
+
