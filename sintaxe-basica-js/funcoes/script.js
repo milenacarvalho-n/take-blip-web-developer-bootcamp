@@ -27,3 +27,15 @@ function comparaNumeros (a, b) {
   const soma = a + b;
   return saoIguais ? "São iguais" : "Não são iguais";
 }
+
+//utilizando o this
+const carro = {
+  modelo: "Ka",
+  fabricante: "Ford",
+  NomeCompleto: function () {
+    return `${this.fabricante} ${this.modelo}`;
+  },
+};
+console.log(carro.NomeCompleto());
+
+//Output: "Ford Ka"
