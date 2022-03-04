@@ -31,14 +31,28 @@ body {
   gap: 15px;
 }
 
+.newItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}
+
 input {
-  width: 200px;
-  height: 40px;
+  width: 300px;
+  height: 44px;
   margin-top: 20px;
 }
 
 button {
-  width: 80px;
-  height: 40px;
+  border: 2px solid rgb(44, 44, 43);
+  border-radius: 5px;
   background-color: #F4CE01;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 13px 40px;
 }
