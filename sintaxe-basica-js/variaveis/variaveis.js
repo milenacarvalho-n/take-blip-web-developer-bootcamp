@@ -9,7 +9,7 @@ let numero = 12;
 console.log(typeof(numero));
 
 //retorna o tipo string
-let nome = 'Milena';
+let nome0 = 'Milena';
 console.log(typeof(nome));
 
 //
@@ -24,7 +24,7 @@ console.log(typeof(soma));
 var nome = 'Carol';
 
 //let possui escopo local de bloco
-let nome = 'Carlos';
+let nome1 = 'Carlos';
 
 //const possui escopo local de bloco e seu valor inicial não pode ser alterado.
 const pi = 3.14;
@@ -41,3 +41,4 @@ let comparacao2 = 0 == '0'; // igual (checa somente valor)
 // && todas as consições precisam ser true
 // || apenas uma das condições precisa ser true
 // ! inverte o valor
+
