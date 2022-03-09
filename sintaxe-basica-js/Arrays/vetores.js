@@ -48,3 +48,25 @@ console.log(citricos);
 // citricos contem ['Laranja','Limao']
 
 
+
+//Utilizando Spread (espelhamento)
+let parts = ['shoulders', 'knees'];
+let lyrics = ['head', ...parts, 'and', 'toes'];
+// ["head", "shoulders", "knees", "and", "toes"]
+
+
+// 0 Spread faz parte de um array se tornar um elemento independente. Sintaxe: ...variavel
+function sum(x, y, z) {
+  return x + y + z;
+}
+const numbers = [1, 2, 3];
+console.log(sum(...numbers));
+// output: 6
+
+
+//Utilizando Rest. Combina os argumentos em um array.
+function confereTamanho(...args){
+  console.log(args.length);
+}
+
+confereTamanho(3, 4, 5, 6, 7); //Output: 5

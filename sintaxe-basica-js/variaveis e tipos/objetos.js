@@ -23,3 +23,26 @@ person.name['name'];
 let mom = 'nameOfMom';
 person2[mom] = 'Maria';
 console.log(person2) //Output: { name: 'Nathalia', age: 24, sign: 'Lion', nameOfMom: 'Maria' }
+
+
+//Object Destructuring
+
+const user = {
+  id: 42,
+  displayName: 'jinx',
+  fullName: {
+    firstName: 'Powder',
+    lastName: 'Arcane'
+  }
+};
+
+function userId({id}) {
+  return id;
+}
+
+function getFullName({fullName: {firstName: first, lastName: last}}) {
+  return `${first} ${last}`;
+}
+
+userId(user); //Output: 42
+getFullName(user) // Powder Arcane;
