@@ -22,3 +22,17 @@ console.log(frase.includes("tudo")); //output: true
 
 // o método abaixo retorna outra frase. Não modifica a frase original.
 console.log(frase.replace(",", "!")); // Output: "Olá! Tudo bem?"
+
+
+//Metódo substring()
+ // variavel.substring(start[, length])
+  const phrase = "Life is not a problem to be solved.";
+  const partial = phrase.substring(0, 10);
+  const upper = partial.toUpperCase();
+  console.log(upper);
+  
+ 
+
+
+ 
+  
